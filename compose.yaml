@@ -14,8 +14,8 @@ services:
     ports:
       - 5173:5173
     volumes:
-     - .:/app
-     - /app/node_modules
+     - .:/home/node/app
+     - /home/node/app/node_modules
 
 # The commented out section below is an example of how to define a PostgreSQL
 # database that your application can use. `depends_on` tells Docker Compose to
